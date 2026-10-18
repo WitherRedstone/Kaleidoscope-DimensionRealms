@@ -4,7 +4,7 @@
     "Name": "minecraft:stone"
   },
   "default_fluid": {
-    "Name": "minecraft:water",
+    "Name": "kaleidoscope_dimension_realms:grape_juice_block",
     "Properties": {
       "level": "0"
     }
@@ -247,12 +247,7 @@
         }
       }
     },
-    "lava": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_lava",
-      "xz_scale": 1.0,
-      "y_scale": 1.0
-    },
+    "lava": 0.0,
     "ridges": "minecraft:overworld/ridges",
     "temperature": {
       "type": "minecraft:shifted_noise",
@@ -340,7 +335,7 @@
       }
     }
   },
-  "ore_veins_enabled": true,
+  "ore_veins_enabled": false,
   "sea_level": 63,
   "spawn_target": [
     {

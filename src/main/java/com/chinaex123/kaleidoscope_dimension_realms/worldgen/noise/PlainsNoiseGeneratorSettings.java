@@ -2,6 +2,7 @@ package com.chinaex123.kaleidoscope_dimension_realms.worldgen.noise;
 
 import com.chinaex123.kaleidoscope_dimension_realms.KaleidoscopeDimensionRealms;
 import com.chinaex123.kaleidoscope_dimension_realms.init.KDRBlocks;
+import com.chinaex123.kaleidoscope_dimension_realms.init.KDRFluidBlocks;
 import com.chinaex123.kaleidoscope_dimension_realms.worldgen.biome.PurpleFujiPlains;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -35,7 +36,7 @@ public class PlainsNoiseGeneratorSettings {
                 vanillaRouter.barrierNoise(),                   // 屏障噪声
                 vanillaRouter.fluidLevelFloodednessNoise(),     // 流体淹没程度噪声
                 vanillaRouter.fluidLevelSpreadNoise(),          // 流体扩散噪声
-                vanillaRouter.lavaNoise(),                      // 岩浆噪声
+                DensityFunctions.constant(0),             // 岩浆噪声
                 vanillaRouter.temperature(),                    // 温度噪声
                 vanillaRouter.vegetation(),                     // 植被噪声
                 vanillaRouter.continents(),                     // 大陆性噪声
@@ -56,14 +57,14 @@ public class PlainsNoiseGeneratorSettings {
         NoiseGeneratorSettings custom = new NoiseGeneratorSettings(
                 vanilla.noiseSettings(),           // 噪声设置
                 vanilla.defaultBlock(),            // 默认方块
-                vanilla.defaultFluid(),            // 默认流体
+                KDRFluidBlocks.GRAPE_JUICE_BLOCK.get().defaultBlockState(), // 默认流体
                 customRouter,                      // 自定义噪声路由
                 customSurface,                     // 自定义地表规则
                 vanilla.spawnTarget(),             // 生成目标
                 vanilla.seaLevel(),                // 海平面高度
                 vanilla.disableMobGeneration(),    // 是否禁用生物生成
                 vanilla.isAquifersEnabled(),       // 是否启用含水层
-                vanilla.oreVeinsEnabled(),         // 是否启用矿脉
+                false,                             // 是否启用矿脉
                 vanilla.useLegacyRandomSource()    // 是否使用旧版随机源
         );
 

@@ -2,7 +2,11 @@
   "required": true,
   "package": "com.chinaex123.kaleidoscope_dimension_realms.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "BaseFlowingFluidMixin",
+    "JuiceBucketItemMixin",
+    "JuiceFluidTypeMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },

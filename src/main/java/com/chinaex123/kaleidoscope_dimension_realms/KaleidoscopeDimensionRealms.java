@@ -3,17 +3,15 @@ package com.chinaex123.kaleidoscope_dimension_realms;
 import com.chinaex123.kaleidoscope_dimension_realms.init.KDRBlocks;
 import com.chinaex123.kaleidoscope_dimension_realms.init.KDRCreativeTabs;
 import com.chinaex123.kaleidoscope_dimension_realms.init.KDRItems;
+import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import org.slf4j.Logger;
-
-import com.mojang.logging.LogUtils;
-
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.ModContainer;
 
 @Mod(KaleidoscopeDimensionRealms.MODID)
 public class KaleidoscopeDimensionRealms {

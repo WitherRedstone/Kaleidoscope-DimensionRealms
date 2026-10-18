@@ -17,5 +17,13 @@
   "block.kaleidoscope_dimension_realms.stripped_purple_fuji_log": "去皮紫藤原木",
   "block.kaleidoscope_dimension_realms.stripped_purple_fuji_wood": "去皮紫藤木",
   "block.kaleidoscope_dimension_realms.purple_fuji_leaves": "紫藤树叶",
-  "block.kaleidoscope_dimension_realms.purple_fuji_planks": "紫藤木板"
+  "block.kaleidoscope_dimension_realms.purple_fuji_planks": "紫藤木板",
+
+  "_comment.fluids": "流体",
+  "block.kaleidoscope_dimension_realms.grape_juice_block": "葡萄汁",
+  "block.kaleidoscope_dimension_realms.ice_grape_juice_block": "冰葡萄汁",
+  "block.kaleidoscope_dimension_realms.gold_grape_juice_block": "黄金葡萄汁",
+  "block.kaleidoscope_dimension_realms.green_grape_juice_block": "青提葡萄汁",
+  "block.kaleidoscope_dimension_realms.sweet_berries_juice_block": "甜浆果汁",
+  "block.kaleidoscope_dimension_realms.glow_berries_juice_block": "发光浆果汁"
 }
