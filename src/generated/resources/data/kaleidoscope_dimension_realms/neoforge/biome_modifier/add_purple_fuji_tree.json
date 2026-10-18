@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "kaleidoscope_dimension_realms:purple_fuji_plains",
+  "features": "kaleidoscope_dimension_realms:purple_fuji_tree_placed",
+  "step": "vegetal_decoration"
+}

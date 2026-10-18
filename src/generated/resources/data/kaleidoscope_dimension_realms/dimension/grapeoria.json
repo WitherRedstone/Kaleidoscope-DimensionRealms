@@ -1,0 +1,11 @@
+{
+  "type": "kaleidoscope_dimension_realms:grapeoria_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "kaleidoscope_dimension_realms:purple_fuji_plains"
+    },
+    "settings": "kaleidoscope_dimension_realms:grapeoria_noise"
+  }
+}

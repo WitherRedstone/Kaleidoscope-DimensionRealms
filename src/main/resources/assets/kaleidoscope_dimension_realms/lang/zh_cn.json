@@ -1,0 +1,21 @@
+{
+  "itemGroup.kaleidoscope_dimension_realms": "森罗物语：次元维度",
+
+  "_comment.blocks": "方块",
+  "block.kaleidoscope_dimension_realms.purple_fuji_turf": "紫藤覆层",
+  "block.kaleidoscope_dimension_realms.purple_fuji_soil": "紫藤土",
+  "block.kaleidoscope_dimension_realms.purple_fuji_sand": "紫藤砂",
+  "block.kaleidoscope_dimension_realms.purple_fuji_stone": "紫藤石",
+  "block.kaleidoscope_dimension_realms.fermented_fuji_grape_block": "发酵紫藤块",
+  "block.kaleidoscope_dimension_realms.purple_fuji_vine_cluster": "紫藤藤丛",
+  "block.kaleidoscope_dimension_realms.purple_fuji_berry_bush": "紫藤浆果丛",
+  "block.kaleidoscope_dimension_realms.purple_fuji_flower": "紫藤花",
+  "block.kaleidoscope_dimension_realms.potted_purple_fuji_flower": "盆栽紫藤花",
+  "block.kaleidoscope_dimension_realms.purple_fuji_sapling": "紫藤木树苗",
+  "block.kaleidoscope_dimension_realms.purple_fuji_log": "紫藤原木",
+  "block.kaleidoscope_dimension_realms.purple_fuji_wood": "紫藤木",
+  "block.kaleidoscope_dimension_realms.stripped_purple_fuji_log": "去皮紫藤原木",
+  "block.kaleidoscope_dimension_realms.stripped_purple_fuji_wood": "去皮紫藤木",
+  "block.kaleidoscope_dimension_realms.purple_fuji_leaves": "紫藤树叶",
+  "block.kaleidoscope_dimension_realms.purple_fuji_planks": "紫藤木板"
+}
